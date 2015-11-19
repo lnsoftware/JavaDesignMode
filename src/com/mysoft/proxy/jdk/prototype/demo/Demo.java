@@ -1,12 +1,15 @@
-package com.mysoft.proxy.prototype.demo;
+package com.mysoft.proxy.jdk.prototype.demo;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
-import com.mysoft.proxy.prototype.ProxyHandler;
-import com.mysoft.proxy.prototype.ProxyImpl;
-import com.mysoft.proxy.prototype.ProxyInterface;
+import com.mysoft.proxy.jdk.prototype.ProxyHandler;
+import com.mysoft.proxy.jdk.prototype.ProxyImpl;
+import com.mysoft.proxy.jdk.prototype.ProxyInterface;
 
+/**
+ * 只有类实现接口的方式才可以使用jdk的动态代理
+ */
 public class Demo {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.mysoft.proxy.prototype;
+package com.mysoft.proxy.jdk.prototype;
 
 public class ProxyImpl implements ProxyInterface {
 

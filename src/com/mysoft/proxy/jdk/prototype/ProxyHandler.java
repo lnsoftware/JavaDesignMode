@@ -1,4 +1,4 @@
-package com.mysoft.proxy.prototype;
+package com.mysoft.proxy.jdk.prototype;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
